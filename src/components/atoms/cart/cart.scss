@@ -1,0 +1,53 @@
+.header-cart{
+    display:flex;
+    width: 30px;
+    height:30px;
+    position: relative;
+    cursor: pointer;
+    
+    &:hover{
+        opacity: 0.7;
+    }
+   
+  
+}
+
+
+.img-cart{
+    height:30px;
+    width: 30px;
+    
+    
+}
+
+.count{
+    
+
+    
+    height: 17px;
+    width:20px;
+    
+  
+    background-color: #ff7300fb;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+     color:white;
+     border: none;
+     position: absolute;
+     right:-5px;
+     top:-5px;
+
+    
+    
+     
+     
+     
+    
+
+
+  
+    
+
+}

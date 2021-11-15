@@ -1,0 +1,79 @@
+.banner-main{
+    display:flex;
+    flex-direction: row;
+    
+   
+   
+    height:250px;
+    margin-right: 150px;
+    margin-left: 150px;
+    
+    
+
+}
+
+.banner-left{ 
+    background-color:blue;
+    
+    height:250px;
+    width:750px;
+    border-radius: 10px;
+
+    
+}
+
+.banner-left img{
+    height:250px;
+    width:750px;
+    border-radius: 10px;
+}
+
+.banner-right{ 
+    display:flex;
+    
+    flex-direction: column;
+    height:250px;
+    width: 500px;
+    margin-left: 5px;
+    border-radius: 10px;
+    
+    
+
+}
+
+.banner-right-up{ 
+    
+    
+    height:125px;
+    width:500px;
+    margin-bottom: 3px;
+    border-radius: 10px;
+
+
+}
+
+.banner-right-up img{
+    
+    height:122px;
+    width:500px;
+    border-radius: 10px;
+    
+    
+   
+}
+
+.banner-right-down {
+
+    height:125px;
+    width:500px;
+  
+    border-radius: 10px;
+    
+}
+
+
+.banner-right-down img{
+    height:122px;
+    width:500px;
+    border-radius: 10px;
+}
