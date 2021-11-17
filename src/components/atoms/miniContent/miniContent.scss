@@ -1,0 +1,46 @@
+.minicontent-main{
+    height:250px;
+    width:200px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid rgb(182, 172, 172);
+    cursor: pointer;
+    transition: padding-bottom 3s;
+    
+  
+
+     
+
+    p{
+        font-size: 28px;
+        font-weight:600;
+
+    }
+
+    &:hover{
+        .minicontent-in{
+            padding-bottom: 10px;
+        }
+
+        p{
+            padding-bottom: 10px;
+
+        }
+        
+
+    }
+
+}
+
+.minicontent-in img{
+    width:100px;
+    height:100px;
+    padding-bottom: 0px;
+    
+    
+ 
+}
+
