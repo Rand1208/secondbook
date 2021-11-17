@@ -1,5 +1,5 @@
 import React from 'react'
-import { Banner, Gap, Navbar } from '../../components'
+import { Banner, ContentMain, Gap, GapWidth, Navbar } from '../../components'
 import ContentHeader from '../../components/molekul/contentHeader/contentHeader'
 import "./home.scss"
 
@@ -14,6 +14,8 @@ const Home = () => {
             <Banner/>
             <Gap/>
             <ContentHeader/>
+            <Gap/>
+            <ContentMain/>
             
             <div className="footer">footer</div>
         </div>

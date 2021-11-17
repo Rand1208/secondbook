@@ -1,0 +1,24 @@
+.content-bukubekas{
+    display:flex;
+    flex-direction:column;
+    
+    height:800px;
+    margin-left: 150px;
+
+}
+
+.content-bukubekas-title{
+    margin-bottom: 10px;
+    p{
+        font-size: 28px;
+        font-weight: 700;
+    }
+}
+
+.content-bukubekas-content{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin-left: 80px;
+    margin-right: 80px;
+}

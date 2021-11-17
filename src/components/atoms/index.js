@@ -6,5 +6,6 @@ import Cart from "./cart/cart"
 import Gap from "./gap/gap";
 import MiniContent from "./miniContent/miniContent";
 import GapWidth from "./gapWidth/gapWidth"
+import Content from "./content/content";
 
-export {SearchBar,Button,Inputs,Cart,Gap,MiniContent,GapWidth} 
+export {SearchBar,Button,Inputs,Cart,Gap,MiniContent,GapWidth,Content} 
