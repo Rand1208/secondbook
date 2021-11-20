@@ -15,7 +15,9 @@ const Home = () => {
             <Gap/>
             <ContentHeader/>
             <Gap/>
-            <ContentMain/>
+            <ContentMain title="Buku Bekas" link="http://localhost:3003/post"/>
+            <Gap/>
+            <ContentMain title="Pinjam Buku" link="http://localhost:3003/pinjambuku" />
             
             <div className="footer">footer</div>
         </div>

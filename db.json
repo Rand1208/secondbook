@@ -1,0 +1,15 @@
+{
+    "post":[{"title":"Mindset","price": 20000,"img":"https://placeimg.com/640/480/arch"},
+        {"title":"Rich Dad Poor Dad","price": 30000,"img":"https://placeimg.com/640/480/arch"},
+        {"title":"Atomic Habits","price": 30000,"img":"https://placeimg.com/640/480/arch"},
+        {"title":"7 Habits","price": 50000,"img":"https://placeimg.com/640/480/arch"}
+      ],
+
+    "pinjambuku":[
+      {"title":"adakdabra","price": 20000,"img":"https://placeimg.com/640/480/arch"},
+      {"title":"GOGOGO","price": 30000,"img":"https://placeimg.com/640/480/arch"},
+      {"title":"Naruto","price": 20000,"img":"https://placeimg.com/640/480/arch"},
+      {"title":"Onepiece","price": 20000,"img":"https://placeimg.com/640/480/arch"}
+
+    ]
+}
