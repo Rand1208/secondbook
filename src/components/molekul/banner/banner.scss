@@ -1,7 +1,7 @@
 .banner-main{
     display:flex;
     flex-direction: row;
-    height:250px;
+    height:400px;
     margin-right: 150px;
     margin-left: 150px;
     justify-content: center;
@@ -13,7 +13,7 @@
 .banner-left{ 
     
     
-    height:250px;
+    height:400px;
     width:750px;
     border-radius: 10px;
 
@@ -21,7 +21,7 @@
 }
 
 .banner-left img{
-    height:250px;
+    height:400px;
     width:750px;
     border-radius: 10px;
 }
@@ -30,7 +30,7 @@
     display:flex;
     
     flex-direction: column;
-    height:250px;
+    height:400px;
     width: 500px;
     margin-left: 5px;
     border-radius: 10px;
@@ -42,7 +42,7 @@
 .banner-right-up{ 
     
     
-    height:125px;
+    height:200px;
     width:500px;
     margin-bottom: 3px;
     border-radius: 10px;
@@ -52,7 +52,7 @@
 
 .banner-right-up img{
     
-    height:122px;
+    height:200px;
     width:500px;
     border-radius: 10px;
     
@@ -62,7 +62,7 @@
 
 .banner-right-down {
 
-    height:125px;
+    height:200px;
     width:500px;
   
     border-radius: 10px;
@@ -71,7 +71,7 @@
 
 
 .banner-right-down img{
-    height:122px;
+    height:200px;
     width:500px;
     border-radius: 10px;
 }

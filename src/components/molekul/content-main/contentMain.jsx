@@ -7,7 +7,13 @@ import axios from 'axios';
 class ContentMain extends Component{
 
     state={
-        post:[]
+        post:[],
+        
+    }
+
+    getDataContent = ()=>{
+        console.log("asadasd")
+
     }
 
     
@@ -37,8 +43,7 @@ class ContentMain extends Component{
                 <div className="content-bukubekas-title"><p>{this.props.title}</p></div>
                 <div className="content-bukubekas-content">
                 {this.state.post.map(postt=>
-                     <Content title={postt.title} price={postt.price} img={postt.img}/>
-
+                     <Content title={postt.title} price={postt.price} img={postt.img} gettitle={postt.title} onClick={()=>console.log(postt.title)} />
                 )}
                 
                 </div>

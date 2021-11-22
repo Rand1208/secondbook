@@ -5,7 +5,7 @@ import "./content.scss"
 const Content = (props) => {
     return (
         <div className="content-main" >
-            <img className="img-content"  src={props.img}/>
+            <img className="img-content"  src={props.img} onClick={()=>console.log(props.gettitle)}  />
             <div className="content-center">
                 <div>
                     <p className="title-content">{props.title}</p>
