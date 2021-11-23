@@ -8,14 +8,7 @@ export default class Banner extends Component {
                 <div className="banner-left">
                     <img src="https://placeimg.com/750/400/tech" alt="dummy"/>
                 </div>
-                <div className="banner-right">
-                    <div className="banner-right-up">
-                        <img src="https://placeimg.com/500/200/arch" alt="dummy"/> 
-                    </div>
-                    <div className="banner-right-down">
-                        <img src="https://placeimg.com/500/200/arch" alt="dummy"/>
-                    </div>
-                </div>
+               
             </div>
         )
     }

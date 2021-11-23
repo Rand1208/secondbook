@@ -10,7 +10,6 @@ const Home = () => {
         <div className="main-page">
             <Navbar className="navbar"/>
             <Gap/>
-            <Gap/>
             <Banner/>
             <Gap/>
             <ContentHeader/>
