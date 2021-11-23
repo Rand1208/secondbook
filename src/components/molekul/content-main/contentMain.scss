@@ -1,15 +1,11 @@
 .content-bukubekas{
     display:flex;
     flex-direction:column;
-    width: 100%;
-    justify-content:space-between;
+    width: 400px;
+    
     max-height: 500px;
     overflow-x: auto;
-  
-
-    padding-bottom: 5%;
-    
-
+    padding-bottom: 5%;  
 }
 
 .content-bukubekas-title{
@@ -24,6 +20,7 @@
 .content-bukubekas-content{
     display:flex;
     flex-direction: row;
+    margin-right: 10px;
     padding-left: 5%;
-    
+    width:500px;
 }

@@ -3,6 +3,7 @@ import { Content } from '../..'
 //import { buku1, buku2, buku3, buku4 } from '../../../assets'
 import "./contentMain.scss"
 import axios from 'axios';
+import { buku1, buku2, buku3 } from '../../../assets';
 
 class ContentMain extends Component{
 
@@ -15,6 +16,21 @@ class ContentMain extends Component{
         console.log("asadasd")
 
     }
+
+    getContentPost = ()=>{
+        if(this.state.post !=null){
+            this.state.post.map(postt=>
+                <Content title={postt.title} price={postt.price} img={postt.img} gettitle={postt.title}  />
+           )
+        }
+        else{
+            <Content title="postt.title" price="postt.price" img="postt.img" gettitle="postt.title"  />
+            
+        }
+        
+    }
+
+    
 
     
 
@@ -42,9 +58,14 @@ class ContentMain extends Component{
             <div className="content-bukubekas">
                 <div className="content-bukubekas-title"><p>{this.props.title}</p></div>
                 <div className="content-bukubekas-content">
-                {this.state.post.map(postt=>
-                     <Content title={postt.title} price={postt.price} img={postt.img} gettitle={postt.title} onClick={()=>console.log(postt.title)} />
-                )}
+                <Content title="postt.title" price="postt.price" img={buku1} gettitle="postt.title"  />
+                <Content title="postt.title" price="postt.price" img={buku2} gettitle="postt.title"  />
+                <Content title="postt.title" price="postt.price" img={buku3} gettitle="postt.title"  />
+                    
+                {/* {
+                    this.getContentPost
+
+                } */}
                 
                 </div>
                 
