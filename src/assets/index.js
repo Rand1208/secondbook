@@ -11,5 +11,6 @@ import buku3 from "./images/buku3.jpg"
 import buku4 from "./images/buku4.jpg"
 import bell from "./icons/Bell.svg"
 import reorder from "./icons/reorder.svg"
+import bg from "./images/bg.png"
 
-export{logoapp,searchIcons,logoapps,cart,bookcontent,trophy,paperplane,buku1,buku2,buku3,buku4,bell,reorder};
+export{logoapp,searchIcons,logoapps,cart,bookcontent,trophy,paperplane,buku1,buku2,buku3,buku4,bell,reorder,bg};

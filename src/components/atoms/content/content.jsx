@@ -1,5 +1,5 @@
 import React from 'react'
-import { bell, buku1} from '../../../assets'
+import { bell, bg, buku1} from '../../../assets'
 import "./content.scss"
 
 const Content = (props) => {
@@ -20,6 +20,13 @@ const Content = (props) => {
             
         </div>
     )
+}
+
+Content.defaultProps={
+    img: bg,
+    title:"untitled",
+    price:"0000",
+
 }
 
 export default Content
