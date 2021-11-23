@@ -1,16 +1,21 @@
 .content-bukubekas{
     display:flex;
     flex-direction:column;
+    width: 100%;
+    justify-content:space-between;
+    max-height: 500px;
+    overflow-x: auto;
+  
+
+    padding-bottom: 5%;
     
-    height:420px;
-    margin-left: 150px;
 
 }
 
 .content-bukubekas-title{
-    margin-bottom: 10px;
+    padding-left: 2%;
     p{
-        font-size: 28px;
+        font-size: 1.5em;
         font-weight: 700;
         font-family: 'Kanit', sans-serif;
     }
@@ -19,7 +24,6 @@
 .content-bukubekas-content{
     display:flex;
     flex-direction: row;
-    justify-content:space-evenly;
-    margin-left: 80px;
-    margin-right: 80px;
+    padding-left: 5%;
+    
 }
