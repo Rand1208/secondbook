@@ -63,10 +63,10 @@ class ContentMain extends Component{
                     this.getContentPost()
                 } */}
                 
-                <Content title="postt.title" price="postt.price" img={buku1} gettitle="postt.title"  />
-                <Content title="postt.title" price="postt.price" img={buku2} gettitle="postt.title"  />
-                <Content title="postt.title" price="postt.price" img={buku3} gettitle="postt.title"  />
-                <Content title="postt.title" price="postt.price" img={buku4} gettitle="postt.title"  />
+                <Content title="Mindset" price="Rp.20.000" img={buku1} gettitle="postt.title"  />
+                <Content title="Rich Dad " price="Rp.40.000" img={buku2} gettitle="postt.title"  />
+                <Content title="Atomic Habits" price="Rp.35.000" img={buku3} gettitle="postt.title"  />
+                <Content title="7 Habits" price="Rp.60.000" img={buku4} gettitle="postt.title"  />
 
 
                
