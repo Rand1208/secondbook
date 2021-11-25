@@ -3,7 +3,8 @@ import { Content } from '../..'
 //import { buku1, buku2, buku3, buku4 } from '../../../assets'
 import "./contentMain.scss"
 import axios from 'axios';
-import { buku1, buku2, buku3 } from '../../../assets';
+import { buku1, buku2, buku3, buku4 } from '../../../assets';
+import { Carousel } from '@trendyol-js/react-carousel';
 
 class ContentMain extends Component{
 
@@ -58,14 +59,20 @@ class ContentMain extends Component{
             <div className="content-bukubekas">
                 <div className="content-bukubekas-title"><p>{this.props.title}</p></div>
                 <div className="content-bukubekas-content">
+
+                
                 <Content title="postt.title" price="postt.price" img={buku1} gettitle="postt.title"  />
                 <Content title="postt.title" price="postt.price" img={buku2} gettitle="postt.title"  />
                 <Content title="postt.title" price="postt.price" img={buku3} gettitle="postt.title"  />
-                    
-                {/* {
-                    this.getContentPost
+                <Content title="postt.title" price="postt.price" img={buku4} gettitle="postt.title"  />
 
-                } */}
+
+               
+
+                    
+                {/* {this.state.post.map(postt=>
+                <Content title={postt.title} price={postt.price} img={postt.img} gettitle={postt.title}  />
+           )} */}
                 
                 </div>
                 
