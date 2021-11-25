@@ -63,18 +63,18 @@ class ContentMain extends Component{
                     this.getContentPost()
                 } */}
                 
-                {/* <Content title="postt.title" price="postt.price" img={buku1} gettitle="postt.title"  />
+                <Content title="postt.title" price="postt.price" img={buku1} gettitle="postt.title"  />
                 <Content title="postt.title" price="postt.price" img={buku2} gettitle="postt.title"  />
                 <Content title="postt.title" price="postt.price" img={buku3} gettitle="postt.title"  />
-                <Content title="postt.title" price="postt.price" img={buku4} gettitle="postt.title"  /> */}
+                <Content title="postt.title" price="postt.price" img={buku4} gettitle="postt.title"  />
 
 
                
 
                     
-                {this.state.post.map(postt=>
+                {/* {this.state.post.map(postt=>
                 <Content title={postt.title} price={postt.price} img={postt.img} gettitle={postt.title}  />
-           )}
+           )} */}
                 
                 </div>
                 

@@ -12,5 +12,7 @@ import buku4 from "./images/buku4.jpg"
 import bell from "./icons/Bell.svg"
 import reorder from "./icons/reorder.svg"
 import bg from "./images/bg.png"
-
-export{logoapp,searchIcons,logoapps,cart,bookcontent,trophy,paperplane,buku1,buku2,buku3,buku4,bell,reorder,bg};
+import fb from "./icons/fb.svg"
+import twitter from "./icons/twitter.svg"
+import instagram from "./icons/instagram.svg"
+export{logoapp,searchIcons,logoapps,cart,bookcontent,trophy,paperplane,buku1,buku2,buku3,buku4,bell,reorder,bg,fb,twitter,instagram};

@@ -1,11 +1,10 @@
 .minicontent-main{
-    height:10%;
+    
     width:100%;
     display:flex;
     flex-direction:column;
     align-items:center;
     justify-content:center;
-    overflow-x: auto;
     
     border-radius: 10px;
     //border: 2px solid rgb(182, 172, 172);
@@ -25,8 +24,8 @@
 
 .minicontent-in img{
     position: relative;
-    width:2em;
-    height:2em;
+    width:3em;
+    height:4em;
     margin-bottom: -1em;
  
 }
