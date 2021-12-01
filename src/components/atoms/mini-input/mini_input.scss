@@ -1,0 +1,13 @@
+.mini-input{
+    height:50px;
+    width:250px;
+    border-radius: 10px;
+    padding-left: 30px;
+    margin-bottom: 8%;
+    border: 1px solid rgb(204, 202, 202);
+    //background:url('../../../assets/icons/email.svg') no-repeat scroll 7px 7px ;
+    &:focus{
+        outline:1px solid rgb(71, 170, 173) ;
+    }
+
+}
