@@ -1,5 +1,5 @@
 import React from 'react'
-import { ButtonLogin, MiniInput } from '../../components/atoms'
+import { ButtonLogin, ListLogin, MiniInput } from '../../components/atoms'
 import Inputs from '../../components/atoms/input/input'
 import "./login.scss"
 
@@ -16,6 +16,9 @@ const Login = () => {
                  <MiniInput placeholder="Enter password"/>
                  <div className="pass-recovery"><p>Recovery Password</p></div>
                  <ButtonLogin/>
+                 <p className="text-other-login">--- Or continue with --- </p>
+                 <ListLogin/>
+    
             </div>
         </div>
         

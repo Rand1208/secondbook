@@ -15,4 +15,7 @@ import bg from "./images/bg.png"
 import fb from "./icons/fb.svg"
 import twitter from "./icons/twitter.svg"
 import instagram from "./icons/instagram.svg"
-export{logoapp,searchIcons,logoapps,cart,bookcontent,trophy,paperplane,buku1,buku2,buku3,buku4,bell,reorder,bg,fb,twitter,instagram};
+import apple from "./icons/bxl-apple.svg"
+import google from "./icons/bxl-google.svg"
+import facebook from "./icons/bxl-facebook.svg"
+export{logoapp,searchIcons,logoapps,cart,bookcontent,trophy,paperplane,buku1,buku2,buku3,buku4,bell,reorder,bg,fb,twitter,instagram,google,facebook,apple};
